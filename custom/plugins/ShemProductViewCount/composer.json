@@ -1,0 +1,18 @@
+{
+  "name": "shem/plugin-product-view-count",
+  "description": "Product View Count plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Shem\\ProductViewCount\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Shem\\ProductViewCount\\ShemProductViewCount",
+    "label": {
+      "de-DE": "Product View Count",
+      "en-GB": "Product View Count"
+    }
+  }
+}
